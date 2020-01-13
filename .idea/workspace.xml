@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66956007-8de4-45a1-be5e-99b0ef016b55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1/RandomText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/week1/RandomText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+    <list default="true" id="66956007-8de4-45a1-be5e-99b0ef016b55" name="Default Changelist" comment="100个随机100内的整数写入本地">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +29,31 @@
     </option>
   </component>
   <component name="ProjectId" id="1WHm8B9v4auCDI8KOyrE97mRcDx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\java\test\src\main\java" />
+      <recent name="F:\java\java\test\src\main" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="RandomText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -100,12 +102,24 @@
       <updated>1578814733258</updated>
       <workItem from="1578814735789" duration="141000" />
       <workItem from="1578814901716" duration="1803000" />
-      <workItem from="1578911004251" duration="4197000" />
+      <workItem from="1578911004251" duration="5270000" />
     </task>
+    <task id="LOCAL-00001" summary="100个随机100内的整数写入本地">
+      <created>1578915284737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578915284737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="100个随机100内的整数写入本地" />
+    <option name="LAST_COMMIT_MESSAGE" value="100个随机100内的整数写入本地" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="184" key="#Inspections" timestamp="1578911268501">
@@ -116,15 +130,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="389" y="91" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1578815340493" />
-    <state x="1040" y="121" key="CommitChangelistDialog2" timestamp="1578915203183">
+    <state x="675" y="141" key="CommitChangelistDialog2" timestamp="1578916347872">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1040" y="121" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578915203183" />
-    <state x="686" y="214" key="FileChooserDialogImpl" timestamp="1578914679371">
+    <state x="675" y="141" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578916347872" />
+    <state x="299" y="117" key="DiffContextDialog" timestamp="1578916334722">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="299" y="117" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578916334722" />
+    <state x="686" y="214" key="FileChooserDialogImpl" timestamp="1578915625943">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578815305160" />
-    <state x="686" y="214" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578914679371" />
+    <state x="686" y="214" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578915625943" />
     <state x="835" y="416" width="273" height="218" key="Github.ShareDialog" timestamp="1578914878515">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -145,14 +163,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="254" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578914928533" />
-    <state x="338" y="70" key="SettingsEditor" timestamp="1578915226293">
+    <state x="938" y="259" key="RollbackChangesDialog" timestamp="1578915938045">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="938" y="259" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1578915938045" />
+    <state x="338" y="70" key="SettingsEditor" timestamp="1578915841623">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578816479531" />
-    <state x="338" y="70" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578915226293" />
+    <state x="338" y="70" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578915841623" />
     <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1578814738823">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578814738823" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1578915329882">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578915329882" />
   </component>
 </project>
