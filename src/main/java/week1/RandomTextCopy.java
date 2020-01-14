@@ -9,15 +9,10 @@ import java.util.UUID;
 public class RandomTextCopy {
     public static void main(String[] args) {
         final String choose = "txt";
-        //要复制文件的路径
         File startFile = new File("D:/java_test/1.png");
-        //这个取出来的就是1.png
         String startFileName = startFile.getName();
-        //取出来文件路径
         String start = startFile.getPath();
-        //得到.的位置
         int position = startFileName.indexOf(".");
-        //取得文件扩展名
         String suffixName = startFileName.substring(position+1);
         try {
             if (suffixName.equals(choose)){
