@@ -8,30 +8,41 @@ import java.util.UUID;
  */
 public class RandomTextCopy {
     public static void main(String[] args) {
-       try {
-           //指定源文件
-           File startFile = new File("D:/java_test/randomText.txt");
-           String startFileName = startFile.getName();
-           int position = startFileName.indexOf(".");
-           //取得文件扩展名
-           String suffixName = startFileName.substring(position+1);
-           //新的文件名
-           String endName = UUID.randomUUID().toString();
-           //指定文件复制到的路径
-           File endFile = new File("D:/java_test/"+endName+"."+suffixName);
-           byte[] bytes = new byte[(int) startFile.length()];
-           //字节输入流
-           InputStream a  = new FileInputStream(startFile);
-           int write = a.read(bytes);
-           a.close();
-           //字节输出流
-           OutputStream b = new FileOutputStream(endFile);
-           b.write(bytes);
-           b.close();
-           System.out.println("复制成功");
-       } catch (IOException e){
-           System.out.println("复制失败");
-       }
+        final String choose = "txt";
+        //要复制文件的路径
+        File startFile = new File("D:/java_test/1.png");
+        //这个取出来的就是1.png
+        String startFileName = startFile.getName();
+        //取出来文件路径
+        String start = startFile.getPath();
+        //得到.的位置
+        int position = startFileName.indexOf(".");
+        //取得文件扩展名
+        String suffixName = startFileName.substring(position+1);
+        try {
+            if (suffixName.equals(choose)){
+                BufferedReader br = new BufferedReader(new FileReader(start));
+                BufferedWriter bw = new BufferedWriter(new FileWriter("D:/java_test/randomTextCopy2"+"."+suffixName));
+                String line;
+                while ((line = br.readLine())!=null){
+                    bw.write(line);
+                }
+                bw.close();
+                br.close();
+            } else{
+                BufferedInputStream fileInputStream = new BufferedInputStream(new FileInputStream(start));
+                BufferedOutputStream fileOutputStream = new BufferedOutputStream(new FileOutputStream("D:/java_test/6"+"."+suffixName));
+                int len;
+                while ((len = fileInputStream.read())!=-1){
+                    fileOutputStream.write(len);
+                }
+                fileOutputStream.close();
+                fileInputStream.close();
+            }
+            System.out.println("拷贝成功");
+        } catch (IOException e){
+            System.out.println("拷贝失败");
+        }
     }
 
 }
